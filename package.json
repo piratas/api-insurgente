@@ -1,0 +1,33 @@
+{
+  "name": "api-insurgente",
+  "version": "1.0.0",
+  "description": "API insurgente de dados públicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piratas/api-insurgente.git"
+  },
+  "keywords": [
+    "api",
+    "egov"
+  ],
+  "author": "GTI <gti@partidopirata.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piratas/api-insurgente/issues"
+  },
+  "homepage": "https://github.com/piratas/api-insurgente#readme",
+  "dependencies": {
+    "finalhandler": "^0.4.1",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "mustache": "^2.2.1",
+    "request": "^2.69.0",
+    "router": "^1.1.4",
+    "underscore": "^1.8.3",
+    "url": "^0.11.0"
+  }
+}
