@@ -1,6 +1,7 @@
-# API Insurgente
+## API
+Versão: _ALPHA_
 
-Ahoy, esse é um projeto que visa criar uma forma de se comunicar com todos os serviços do governo de forma aberta. Estamos preparando material técnico, jurídico e legal que permita desenvolvedores transformarem serviços do governo em APIs abertas.
+O objetivo deste projeto é abrir meios de comunicação abertos (API) para com os serviços fornecidos pelo governo através apenas de portais, formulários ou aplicativos, tornando assim mais acessível a informação para que os cidadãos possam usufruir da informação pública da forma que bem entenderem, não ficando limitados a softwares castrantes mal desenvolvidos por autarquias.
 
 ## ROADMAP
 
