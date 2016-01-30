@@ -14,12 +14,7 @@ module.exports = function (templatePath) {
             body: Mustache.render(fs.readFileSync(templatePath).toString(), url.parse(req.url, true).query)
         }, function (err, httpResponse, body) {
             res.statusCode = httpResponse.statusCode;
-            for (var i in httpResponse.headers) {
-                if (!i in ["content-type"]) {
-                    continue;
-                }
-                res.setHeader(i, httpResponse.headers[i]);
-            }
+            res.setHeader("Content-Type", "text/xml");
             res.end(body);
         });
     };
